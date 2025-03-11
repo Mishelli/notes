@@ -1,0 +1,40 @@
+#načtení od uživatele 
+nacitaniTextu = input("zadejte:")
+nacteniCisla = int(input("zadejte:"))
+
+#přetypování
+cislo= int(input())
+
+#3 podmínky (if, elif, else)
+if (cislo==10 or cislo==30):
+    print ("cislo je 10 nebo 30")
+elif (cislo==15):
+    print ("cislo je 15")
+elif (cislo>=15):
+    print ("cislo je vetsi nebo rovno 15")
+else:
+    print ("napište prosím jiné číslo")
+
+#logické operátory
+if not (cislo==10):
+    print ("cislo neni 10")
+if (cislo==15 and cislo==25):
+    print ("cislo je 15 nebo 25")
+if (cislo==18 or cislo==30):
+    print ("cislo je 10 nebo 30")
+
+
+#vypsat
+print ("čau")
+
+
+#vše je okomentováno (Michaela Čekalová)
+
+
+
+#git hub příkaz : git add *
+#               : git commit -m
+#               : git push
+
+
+
